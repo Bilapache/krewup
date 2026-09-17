@@ -10,3 +10,8 @@ a { color: var(--acento); }
 ul { padding-left: 20px; }
 nav { display: flex; gap: 16px; flex-wrap: wrap; margin: 18px 0 8px; font-size: 14px; }
 .caja { border: 1px solid var(--borde); border-radius: 14px; padding: 14px 16px; margin: 18px 0; }
+.boton { display: block; text-align: center; background: var(--acento); color: #fff; text-decoration: none; font-weight: 700; padding: 16px; border-radius: 14px; margin: 12px 0; }
+.boton.contorno { background: transparent; color: var(--texto); border: 1px solid var(--borde); }
+.grande { font-family: "Anton", Impact, sans-serif; font-size: 30px; letter-spacing: 3px; text-align: center; margin: 8px 0; word-break: break-all; }
+.centro { text-align: center; }
+[hidden] { display: none !important; }
